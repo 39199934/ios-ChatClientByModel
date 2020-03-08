@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDB538EF241493F500DEB886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB538EE241493F500DEB886 /* AppDelegate.swift */; };
+		FDB538F1241493F500DEB886 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB538F0241493F500DEB886 /* SceneDelegate.swift */; };
+		FDB538F3241493F500DEB886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB538F2241493F500DEB886 /* ViewController.swift */; };
+		FDB538F6241493F500DEB886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB538F4241493F500DEB886 /* Main.storyboard */; };
+		FDB538F9241493F500DEB886 /* ChatClientByModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDB538F7241493F500DEB886 /* ChatClientByModel.xcdatamodeld */; };
+		FDB538FB241493F900DEB886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB538FA241493F900DEB886 /* Assets.xcassets */; };
+		FDB538FE241493F900DEB886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB538FC241493F900DEB886 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDB538EB241493F500DEB886 /* ChatClientByModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatClientByModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB538EE241493F500DEB886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB538F0241493F500DEB886 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDB538F2241493F500DEB886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDB538F5241493F500DEB886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB538F8241493F500DEB886 /* ChatClientByModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatClientByModel.xcdatamodel; sourceTree = "<group>"; };
+		FDB538FA241493F900DEB886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB538FD241493F900DEB886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB538FF241493F900DEB886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB538E8241493F500DEB886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB538E2241493F400DEB886 = {
+			isa = PBXGroup;
+			children = (
+				FDB538ED241493F500DEB886 /* ChatClientByModel */,
+				FDB538EC241493F500DEB886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB538EC241493F500DEB886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB538EB241493F500DEB886 /* ChatClientByModel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB538ED241493F500DEB886 /* ChatClientByModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDB538EE241493F500DEB886 /* AppDelegate.swift */,
+				FDB538F0241493F500DEB886 /* SceneDelegate.swift */,
+				FDB538F2241493F500DEB886 /* ViewController.swift */,
+				FDB538F4241493F500DEB886 /* Main.storyboard */,
+				FDB538FA241493F900DEB886 /* Assets.xcassets */,
+				FDB538FC241493F900DEB886 /* LaunchScreen.storyboard */,
+				FDB538FF241493F900DEB886 /* Info.plist */,
+				FDB538F7241493F500DEB886 /* ChatClientByModel.xcdatamodeld */,
+			);
+			path = ChatClientByModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB538EA241493F500DEB886 /* ChatClientByModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB53902241493F900DEB886 /* Build configuration list for PBXNativeTarget "ChatClientByModel" */;
+			buildPhases = (
+				FDB538E7241493F500DEB886 /* Sources */,
+				FDB538E8241493F500DEB886 /* Frameworks */,
+				FDB538E9241493F500DEB886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatClientByModel;
+			productName = ChatClientByModel;
+			productReference = FDB538EB241493F500DEB886 /* ChatClientByModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB538E3241493F400DEB886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rolodestar Studio";
+				TargetAttributes = {
+					FDB538EA241493F500DEB886 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FDB538E6241493F400DEB886 /* Build configuration list for PBXProject "ChatClientByModel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB538E2241493F400DEB886;
+			productRefGroup = FDB538EC241493F500DEB886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB538EA241493F500DEB886 /* ChatClientByModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB538E9241493F500DEB886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB538FE241493F900DEB886 /* LaunchScreen.storyboard in Resources */,
+				FDB538FB241493F900DEB886 /* Assets.xcassets in Resources */,
+				FDB538F6241493F500DEB886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB538E7241493F500DEB886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB538F3241493F500DEB886 /* ViewController.swift in Sources */,
+				FDB538F9241493F500DEB886 /* ChatClientByModel.xcdatamodeld in Sources */,
+				FDB538EF241493F500DEB886 /* AppDelegate.swift in Sources */,
+				FDB538F1241493F500DEB886 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDB538F4241493F500DEB886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB538F5241493F500DEB886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB538FC241493F900DEB886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB538FD241493F900DEB886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB53900241493F900DEB886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB53901241493F900DEB886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB53903241493F900DEB886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHWH78T44A;
+				INFOPLIST_FILE = ChatClientByModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rolodestar.com.ChatClientByModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB53904241493F900DEB886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHWH78T44A;
+				INFOPLIST_FILE = ChatClientByModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rolodestar.com.ChatClientByModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB538E6241493F400DEB886 /* Build configuration list for PBXProject "ChatClientByModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB53900241493F900DEB886 /* Debug */,
+				FDB53901241493F900DEB886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB53902241493F900DEB886 /* Build configuration list for PBXNativeTarget "ChatClientByModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB53903241493F900DEB886 /* Debug */,
+				FDB53904241493F900DEB886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDB538F7241493F500DEB886 /* ChatClientByModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDB538F8241493F500DEB886 /* ChatClientByModel.xcdatamodel */,
+			);
+			currentVersion = FDB538F8241493F500DEB886 /* ChatClientByModel.xcdatamodel */;
+			path = ChatClientByModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDB538E3241493F400DEB886 /* Project object */;
+}
